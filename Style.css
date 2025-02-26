@@ -1,0 +1,62 @@
+/* Basic Menu Styling */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #ff6b81;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+/* Hover Effects */
+.menu a:hover {
+  background: #ff4757;
+}
+
+/* Dropdown Styling */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background: #ff6b81;
+  list-style: none;
+  padding: 0;
+  width: 200px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  width: 100%;
+}
+
+.dropdown-menu a {
+  padding: 10px;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background: #ff4757;
+}
+
+header h1 {
+    font-size: 60px;  /* Large Font Size */
+    font-weight: bold;
+    color: #333;  /* Dark Grey Text */
+    text-transform: uppercase;
+    margin-top: 30px;
+}
